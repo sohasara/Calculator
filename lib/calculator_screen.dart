@@ -57,14 +57,14 @@ class _ScreenState extends State<Screen> {
                   Text(
                     input,
                     style: const TextStyle(
-                        fontSize: 50,
+                        fontSize: 52,
                         fontWeight: FontWeight.bold,
                         color: Colors.white),
                   ),
                   Text(
                     output,
                     style: const TextStyle(
-                        fontSize: 40,
+                        fontSize: 41,
                         fontWeight: FontWeight.bold,
                         color: Colors.white),
                   ),
