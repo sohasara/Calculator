@@ -42,7 +42,7 @@ class _ScreenState extends State<Screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //backgroundColor: Colors.green,
+      backgroundColor: const Color.fromRGBO(29, 56, 73, 1),
       body: Column(
         children: [
           Expanded(
@@ -57,16 +57,16 @@ class _ScreenState extends State<Screen> {
                   Text(
                     input,
                     style: const TextStyle(
-                        fontSize: 45,
+                        fontSize: 50,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black),
+                        color: Colors.white),
                   ),
                   Text(
                     output,
                     style: const TextStyle(
-                        fontSize: 45,
+                        fontSize: 40,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black),
+                        color: Colors.white),
                   ),
                 ],
               ),
@@ -127,7 +127,7 @@ class _ScreenState extends State<Screen> {
               borderRadius: BorderRadius.circular(12),
             ),
             padding: const EdgeInsets.all(22),
-            backgroundColor: Colors.black,
+            backgroundColor: Colors.white,
           ),
           onPressed: () => onButtonClick(text),
           child: Text(
